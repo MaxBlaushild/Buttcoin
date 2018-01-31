@@ -1,0 +1,17 @@
+<button class="transaction-button" (click)="toggleDeposit()">Deposit</button>
+<button class="transaction-button" (click)="toggleWithdraw()">Withdraw</button>
+
+<section [hidden]="!isWithdrawing">
+  <div class="bar-section">
+    <p class="label" >Amount</p>
+    <input [(ngModel)]="withdrawalAmount" type="text">
+    <p class="label" >To</p>
+    <input [(ngModel)]="withdrawalAddress" type="text">
+  <button class="transaction-button send" (click)="transfer()">Send</button>
+  </div>
+
+</section>
+
+<section class="address" [hidden]="!isDepositing">
+  <p>{{ address$ | async }}</p>
+</section>

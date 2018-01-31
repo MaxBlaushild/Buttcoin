@@ -1,0 +1,71 @@
+.transaction-button {
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  width: 200px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: light;
+  line-height: 1.4 !important;
+  white-space: nowrap;
+}
+
+.address {
+  background-color: black;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+}
+
+.label {
+  height: 100%;
+  background-color: black;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  color: white;
+  width: 80px;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+input {
+  width: 300px;
+  height: 35px;
+  line-height: 35px;
+  color: black;
+  border: none;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+input[type=text] {
+  font-family: 'Nunito', sans-serif;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.send {
+  margin-top: 20px;
+}
+
+.bar-section {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin-left: 100px;
+  margin-right: 100px;
+  flex-wrap: wrap;
+}

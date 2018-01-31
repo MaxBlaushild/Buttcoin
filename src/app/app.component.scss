@@ -1,0 +1,16 @@
+.container {
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  background-color: #e0ac69;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin: 150px 0 0 -250px;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
